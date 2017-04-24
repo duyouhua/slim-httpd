@@ -1,0 +1,10 @@
+#ifndef _SLIM_HTTPD_H_
+#define _SLIM_HTTPD_H_
+
+#cmakedefine HAVE_EPOLL
+#cmakedefine HAVE_KQUEUE
+
+extern const char SERV_NAME[];
+extern const char exec_name[];
+
+#endif
